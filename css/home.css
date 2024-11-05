@@ -1,0 +1,138 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.websiteIcon {
+    border-radius: 50%;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/banner-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    padding: 50px 100px 150px 100px ;
+
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.navTabs {
+    display: flex;
+    gap: 50px;
+}
+
+.navTabs li {
+    list-style: none;
+}
+
+.navTab {
+    text-decoration: none;
+    color: white;
+}
+
+.siteLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.homeLogo {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.logo {
+    width: 70px;
+    height: auto;
+    padding-right: 10px;
+
+}
+.heroArea {
+    display: flex;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.HeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.HeroText p {
+    width: 80%;
+    text-wrap: wrap;
+    color: white;
+}
+
+.heroImage {
+    border-radius: 20px;
+}
+
+.signInButton {
+    color: white;
+    background-color: rgb(238,98,107);
+    border: 0px;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 8px 25px 10px 25px;
+    text-align: center;
+}
+
+.searchBar {
+    display: block;
+    position: relative;
+}
+.searchArea {
+    font-size:medium;
+    display: inline-block;
+    max-width: 450px;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    padding-left: 30px;
+}
+
+.searchButton {
+    display: inline-block;
+    height: 50px;
+    background-color: rgb(238,98,107);
+    padding: 0px 25px;
+    border-radius: 25px;
+    border: 0px;
+    color: white;
+    font-size:large;
+cursor: pointer;
+}
+
+.offer {
+    position: absolute;
+    top: 640px;
+    right: 430px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(238,98,107);
+    padding: 30px 15px 30px 15px;
+    border-radius: 50%;
+}
+.price {
+    position: absolute;
+    right: 120px;
+    top: 230px;
+    font-size: 22px;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(0,138,248);
+    padding: 5px 15px 6px 15px;
+    border-radius: 25px;}
