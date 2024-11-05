@@ -42,13 +42,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 .homeLogo {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: white;
     font-size: 30px;
 }
+
 .logo {
     width: 70px;
     height: auto;
@@ -61,18 +63,31 @@ body {
     gap: 20px;
 }
 
-.HeroText {
+.heroText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
 }
+.heroText1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.heroText2 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 50px;
+}
 
-.HeroText p {
+.heroText3 {
     width: 80%;
     text-wrap: wrap;
     color: white;
+    line-height: 30px;
 }
+
 
 .heroImage {
     border-radius: 20px;
@@ -89,10 +104,12 @@ body {
 }
 
 .searchBar {
+    padding-top: 50px;
     display: block;
     position: relative;
 }
 .searchArea {
+    position: absolute;
     font-size:medium;
     display: inline-block;
     max-width: 450px;
@@ -104,8 +121,11 @@ body {
 }
 
 .searchButton {
+    position: absolute;
     display: inline-block;
-    height: 50px;
+    left: 334px;
+    top: 50px;
+    height: 52px;
     background-color: rgb(238,98,107);
     padding: 0px 25px;
     border-radius: 25px;
