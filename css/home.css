@@ -155,46 +155,84 @@ cursor: pointer;
     color:white;
     background-color: rgb(0,138,248);
     padding: 5px 15px 6px 15px;
-    border-radius: 25px;}
+    border-radius: 25px;
+}
 
-.trending {
+/* games cards */
+.gamesCards {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 50px 100px 150px 100px ;
     gap: 30px;
     
 }
 
-.upperArea {
+.upperText {
     justify-content: left;
 }
-    .upperArea p {
+
+.upperText p {
         color: rgb(238,98,107);
         font-weight: 700;
         margin: 0px;
-    }
-    .upperArea h2 {
+}
+.upperText h2 {
         font-size: 40px;
         font-weight: 700;
-    }
+        margin-top: 10px;
+}
 
-    .viewAllButton {
+.titleAndButton {
+display: flex;
+justify-content: space-between;
+align-items: center;    
+}
+
+.viewAllButton {
         background-color: rgb(238,98,107);
         border: 0px;
         padding: 8px 25px 10px 25px;
-        border-radius: 20px;
+        border-radius: 30px;
         margin: 0px;
         color: white;
         font-size: medium;
         cursor: pointer; 
-    }
+        width: 130px;
+        height: 45px;
+}
     
-    .trendingImages {
-        display: flex;
+.gameCard {
+        display: block;
         justify-content: space-between;
-    }
-    .trendingImage {
+        flex-direction: column;
+}
+.imgCard {
+display: flex;
+}
+.gameImage {
         width: 300px;
-        height: auto;
+        height: 250px;
         border-radius: 20px;
-    }
+}
+
+.cart {
+    background-color: rgb(238,98,107);
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.gamePrice {
+    position: absolute;
+    left: 310px;
+    top: 1080px;
+    color: white;
+    background-color: rgb(0,138,248);
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nameAndCart {
+}
