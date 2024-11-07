@@ -1,26 +1,27 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
 }
+
 .websiteIcon {
     border-radius: 50%;
 }
+
 .heading {
     display: flex;
     flex-direction: column;
     background-image: url(../images/banner-bg.jpg);
     border-radius: 0px 0px 150px 150px;
-    padding: 50px 100px 150px 100px ;
-
+    padding: 50px 100px 150px 100px;
 }
+
 .navBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-
 }
 
 .navTabs {
@@ -43,6 +44,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .logoImage {
     display: flex;
     align-items: center;
@@ -55,8 +57,8 @@ body {
     width: 70px;
     height: auto;
     padding-right: 10px;
-
 }
+
 .heroArea {
     display: flex;
     padding-top: 100px;
@@ -69,11 +71,13 @@ body {
     justify-content: center;
     color: white;
 }
+
 .heroText1 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .heroText2 {
     text-align: left;
     margin-top: 0px;
@@ -88,14 +92,13 @@ body {
     line-height: 30px;
 }
 
-
 .heroImage {
     border-radius: 20px;
 }
 
 .signInButton {
     color: white;
-    background-color: rgb(238,98,107);
+    background-color: rgb(238, 98, 107);
     border: 0px;
     border-radius: 50px;
     text-decoration: none;
@@ -108,9 +111,10 @@ body {
     display: block;
     position: relative;
 }
+
 .searchArea {
     position: absolute;
-    font-size:medium;
+    font-size: medium;
     display: inline-block;
     max-width: 450px;
     width: 100%;
@@ -126,13 +130,13 @@ body {
     left: 334px;
     top: 50px;
     height: 52px;
-    background-color: rgb(238,98,107);
+    background-color: rgb(238, 98, 107);
     padding: 0px 25px;
     border-radius: 25px;
     border: 0px;
     color: white;
-    font-size:large;
-cursor: pointer;
+    font-size: large;
+    cursor: pointer;
 }
 
 .offer {
@@ -142,97 +146,177 @@ cursor: pointer;
     color: white;
     font-size: 30px;
     font-weight: 700;
-    background-color: rgb(238,98,107);
+    background-color: rgb(238, 98, 107);
     padding: 30px 15px 30px 15px;
     border-radius: 50%;
 }
+
 .price {
     position: absolute;
     right: 120px;
     top: 230px;
     font-size: 22px;
     font-weight: 700;
-    color:white;
-    background-color: rgb(0,138,248);
+    color: white;
+    background-color: rgb(0, 138, 248);
     padding: 5px 15px 6px 15px;
     border-radius: 25px;
 }
 
 /* games cards */
 .gamesCards {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 50px 100px 150px 100px ;
+    padding: 50px 100px 100px 100px;
     gap: 30px;
-    
 }
 
 .upperText {
-    justify-content: left;
+margin-bottom: 40px;
 }
 
 .upperText p {
-        color: rgb(238,98,107);
-        font-weight: 700;
-        margin: 0px;
+    color: rgb(238, 98, 107);
+    font-weight: 700;
+    margin: 0px;
 }
+
 .upperText h2 {
-        font-size: 40px;
-        font-weight: 700;
-        margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .titleAndButton {
-display: flex;
-justify-content: space-between;
-align-items: center;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.titleAndButton h2 {
+    margin: 0px;
 }
 
 .viewAllButton {
-        background-color: rgb(238,98,107);
-        border: 0px;
-        padding: 8px 25px 10px 25px;
-        border-radius: 30px;
-        margin: 0px;
-        color: white;
-        font-size: medium;
-        cursor: pointer; 
-        width: 130px;
-        height: 45px;
+    background-color: rgb(238, 98, 107);
+    border: 0px;
+    padding: 8px 25px 10px 25px;
+    border-radius: 30px;
+    margin: 0px;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    width: 130px;
+    height: 45px;
 }
-    
+
 .gameCard {
-        display: block;
-        justify-content: space-between;
-        flex-direction: column;
+    display: flex;
 }
+
 .imgCard {
-display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(203, 203, 203);
+    padding: 10px;
 }
+
 .gameImage {
-        width: 300px;
-        height: 250px;
-        border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
 }
 
 .cart {
-    background-color: rgb(238,98,107);
+    position: absolute;
+    background-color: rgb(238, 98, 107);
     width: 20px;
     height: 20px;
     padding: 10px;
     border-radius: 50%;
+    cursor: pointer;
+    bottom: 20px;
+    right: 30px;
 }
-.gamePrice {
+
+.priceTag {
     position: absolute;
-    left: 310px;
-    top: 1080px;
+    top: 25px;
+    left: 220px;
     color: white;
-    background-color: rgb(0,138,248);
+    background-color: rgb(0, 138, 248);
     font-weight: 600;
     padding: 15px;
     border-radius: 10px;
 }
 
+.gameInfo {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.gameInfo p {
+    margin-bottom: 0px;
+    color: rgb(93, 93, 93);
+}
+
+.gameInfo h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
 .nameAndCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.imgCardCategories {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(0,113,248);
+    text-align: center;
+}
+
+.imgCardCategories p {
+    margin: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.gamesCardsCategories {
+    padding: 50px 100px 100px 100px;
+    gap: 30px;
+}
+
+.upperTextCategories {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.upperTextCategories p {
+    color: rgb(238, 98, 107);
+    font-weight: 700;
+    margin: 0px;
+}
+
+.upperTextCategories h2 {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.gameCardCategories {
+    display: flex;
+}
+
+.gameImageCategories {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
 }
