@@ -1,19 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GamesArena.com</title>
+    <title>Shop</title>
     <link class="websiteIcon" rel="icon" href="../images/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/GamesList.css">
 </head>
 
 <body>
+    <!-- NavBar -->
     <div id="navbar-container"></div>
     <script>
         fetch('../html/NavBar.html')
         .then(response => response.text())
         .then(data => document.getElementById('navbar-container').innerHTML = data);
     </script>
+
+    <div class="headSection">
+        <h1>OUR SHOP</h1>
+    </div>
 </body>
