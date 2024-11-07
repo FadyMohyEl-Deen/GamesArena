@@ -10,24 +10,16 @@
 </head>
 
 <body>
+    
+    <!-- navigation bar -->
+    <div id="navbar-container"></div>
+    <script>
+        fetch('../html/NavBar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+
 <div class="heading">
-
-<!-- navigation bar start -->
-    <nav class="navBar">
-        <div class="logo">
-            <a class="logoImage" href="home.html">
-            <img class="logoText" src="../images/Logo.png" alt="logo">
-            GamesArena</a>
-        </div>
-        <ol class="navTabs">
-            <li><a class="navTab" href="">Home</a></li>
-            <li><a class="navTab" href="">Games List</a></li>
-            <li><a class="navTab" href="">News</a></li>
-            <li><a class="navTab" href="">Contact Us</a></li>
-            <li><a class="signInButton" href="">SIGN IN</a></li>
-        </ol>
-    </nav>
-
 <!-- Upper area of the website (hero area) start -->
     <section class="headSection">
         <div class="heroArea">

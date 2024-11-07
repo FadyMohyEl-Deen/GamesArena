@@ -1,0 +1,42 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.navTabs {
+    display: flex;
+    gap: 50px;
+}
+
+.navTabs li {
+    list-style: none;
+}
+
+.navTab {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.logoText {
+    width: 70px;
+    height: auto;
+    padding-right: 10px;
+}
